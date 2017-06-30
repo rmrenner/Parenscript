@@ -71,6 +71,7 @@
    #:new
    #:typeof
    #:void
+   #:comment
 
    ;; literals
    #:nil

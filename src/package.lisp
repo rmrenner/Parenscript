@@ -242,7 +242,11 @@
 
    ;; lisp eval
    #:lisp
+   #:lisp-raw
 
+   ;; comments
+   #:comment
+   
    ;; js object stuff
    #:delete
    #:typeof

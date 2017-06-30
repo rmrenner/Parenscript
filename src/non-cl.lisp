@@ -192,6 +192,14 @@
 
 (defun lisp-raw (x) x)
 
+;;; Here's what I modified to try and make a comment printer
+(define-expression-operator comment (comment-text)
+  `(ps-js:comment ,comment-text))
+
+(defun comment (x) x)
+;;; End mods
+
+
 (defpsmacro undefined (x)
   `(eql "undefined" (typeof ,x)))
 

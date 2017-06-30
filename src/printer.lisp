@@ -388,3 +388,7 @@ vice-versa.")
   ;; literal-js should be a form that evaluates to a string containing
   ;; valid JavaScript
   (psw literal-js))
+
+;;; Here's another hopeless attempt at implementing a comment printer
+(defprinter ps-js:comment (comment-str)
+  (print-comment comment-str))
